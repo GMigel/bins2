@@ -5,6 +5,8 @@
 #include "lv_port_pc.h"
 #include "gui.h"
 
+extern gui_state_t gui_state;
+
 int main()
 {
     #ifdef LV_MEM_SIZE
@@ -24,7 +26,6 @@ int main()
     /* Initialize SDL + LVGL display driver */
     lv_port_pc_init();
 
-    // extern gui_state_t gui_state;
     gui_init(&gui_state);
 
     while (1)
