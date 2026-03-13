@@ -6,8 +6,6 @@ extern "C"
 {
 #endif
 
-//#include "main.h"
-//#include "fdcan.h"
 #include "stdint.h"
 
 //--------------------------------------
@@ -19,7 +17,6 @@ const uint8_t Build = 1;
 
 void app_run(void);
 void app_on_timer(void);
-
 
 #ifdef __cplusplus
 } // extern "C"

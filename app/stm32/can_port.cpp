@@ -4,7 +4,6 @@
 
 #include "../common/app.h"
 #include "can_messages.h"
-//stm32h7xx_hal_fdcan.h
 #include "main.h"
 
 using namespace std;
