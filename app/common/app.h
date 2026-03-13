@@ -6,8 +6,9 @@ extern "C"
 {
 #endif
 
-#include "main.h"
-#include "fdcan.h"
+//#include "main.h"
+//#include "fdcan.h"
+#include "stdint.h"
 
 //--------------------------------------
 // версия ПО
